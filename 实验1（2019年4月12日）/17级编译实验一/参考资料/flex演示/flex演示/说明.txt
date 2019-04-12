@@ -1,0 +1,6 @@
+win_flex.exe --wincompat count.l
+
+建vs工程可能遇到的编译问题：
+在lex.yy.c里面加上
+#include "stdafx.h"
+
